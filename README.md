@@ -1,14 +1,12 @@
-=========================================================================================
-CSV Data Visualizer Documentation
-=========================================================================================
+
+CSV Data Visualizer Documentation :
 
 This script implements a simple CSV data visualization tool using PyQt5 for the user interface
 and pyqtgraph for plotting. Users can load a CSV file, select columns for visualization, and
 choose to plot either the entire dataset or specific columns.
 
-=========================================================================================
-Class: DataVisualizer(QMainWindow)
-=========================================================================================
+
+Class: DataVisualizer(QMainWindow) :
 
 Class Description:
     - The main application class that inherits from QMainWindow.
@@ -67,15 +65,12 @@ Class Methods:
     - Invoked By:
         - load_csv and plot_selected_columns methods.
 
-=========================================================================================
+
 Execution Block:
-=========================================================================================
 
 - Creates an instance of the QApplication class.
 - Creates an instance of the DataVisualizer class.
 - Shows the main window.
 - Executes the application.
 
-=========================================================================================
-End of Documentation
-=========================================================================================
+End of Documentation.
